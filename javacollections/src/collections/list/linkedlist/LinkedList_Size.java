@@ -1,12 +1,13 @@
-import java.util.ArrayList;
+package collections.list.linkedlist;
+import java.util.LinkedList;
 
-public class ArrayList_Size {
+public class LinkedList_Size {
     public static void main(String[] args) {
 
-        // Creating ArrayList
-        ArrayList<Integer> list = new ArrayList<>();
+        // Creating LinkedList
+        LinkedList<Integer> list = new LinkedList<>();
 
-        // Checking if list is empty
+        // Checking empty state
         System.out.println(list.isEmpty());
 
         list.add(10);
@@ -16,3 +17,4 @@ public class ArrayList_Size {
         System.out.println(list.size());
     }
 }
+

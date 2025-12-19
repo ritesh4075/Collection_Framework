@@ -1,4 +1,4 @@
-package linkedlist;
+package collections.list.linkedlist;
 import java.util.LinkedList;
 
 public class LinkedList_Get_Set {

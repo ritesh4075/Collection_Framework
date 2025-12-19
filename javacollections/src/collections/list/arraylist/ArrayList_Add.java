@@ -1,12 +1,12 @@
-package linkedlist;
-import java.util.LinkedList;
+package collections.list.arraylist;
+import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LinkedList_Add {
+public class ArrayList_Add {
     public static void main(String[] args) {
 
-        // Creating LinkedList using List behavior
-        LinkedList<Integer> list = new LinkedList<>();
+        // Creating an empty ArrayList
+        ArrayList<Integer> list = new ArrayList<>();
 
         // Adding elements at the end
         list.add(10);
@@ -17,7 +17,7 @@ public class LinkedList_Add {
         list.add(1, 15);
 
         // Adding multiple elements at once
-        list.addAll(Arrays.asList(40, 50));
+        list.addAll(Arrays.asList(40, 50, 60));
 
         System.out.println(list);
     }

@@ -1,10 +1,11 @@
-import java.util.ArrayList;
+package collections.list.linkedlist;
+import java.util.LinkedList;
 
-public class ArrayList_Search {
+public class LinkedList_Search {
     public static void main(String[] args) {
 
-        // Creating ArrayList
-        ArrayList<Integer> list = new ArrayList<>();
+        // Creating LinkedList
+        LinkedList<Integer> list = new LinkedList<>();
         list.add(10);
         list.add(20);
         list.add(30);
@@ -13,10 +14,10 @@ public class ArrayList_Search {
         // Checking if element exists
         System.out.println(list.contains(20));
 
-        // Getting first index of element
+        // First index of element
         System.out.println(list.indexOf(20));
 
-        // Getting last index of element
+        // Last index of element
         System.out.println(list.lastIndexOf(20));
     }
 }
