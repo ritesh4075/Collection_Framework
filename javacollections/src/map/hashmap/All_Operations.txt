@@ -1,0 +1,40 @@
+# Core:
+put()
+
+putIfAbsent()
+
+get()
+
+getOrDefault()
+
+remove()
+
+clear()
+
+containsKey()
+
+containsValue()
+
+size()
+
+isEmpty()
+
+
+# Iteration:
+
+keySet()
+
+values()
+
+entrySet()
+
+
+# Advanced:
+
+replace()
+
+computeIfAbsent()
+
+computeIfPresent()
+
+merge()
