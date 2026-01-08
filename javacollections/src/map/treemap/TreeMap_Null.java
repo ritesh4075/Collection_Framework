@@ -8,7 +8,7 @@ public class TreeMap_Null {
         TreeMap<Integer, String> map = new TreeMap<>();
 
         // This throws NullPointerException
-        map.put(null, "X");
+        map.put(null, "X");       
     }
 }
 
